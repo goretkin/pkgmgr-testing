@@ -1,0 +1,49 @@
+{
+	"name": "pkg-a2",
+	"versions": {
+		"1.0.0": {
+			"name": "pkg-a2",
+			"version": "1.0.0",
+			"description": "",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [],
+			"author": "",
+			"license": "ISC",
+			"peerDependencies": {
+				"pkg-c": "^0.1.0"
+			},
+			"_id": "pkg-a2@1.0.0",
+			"_nodeVersion": "22.22.3",
+			"_npmVersion": "10.9.8",
+			"dist": {
+				"integrity": "sha512-DSRuF8zkekyF2wpFB7vwgD4gmYhFaf1TQ8W/Oq2Goma+COGI2wLOmBQRU2JJVHS7cRRNp6dIyoeTeDDMjjcEwQ==",
+				"shasum": "0e3f7478b65a5708986827853830b6bb99ac9fc8",
+				"tarball": "http://localhost:4873/pkg-a2/-/pkg-a2-1.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2026-06-16T03:04:30.348Z",
+		"created": "2026-06-16T03:04:30.348Z",
+		"1.0.0": "2026-06-16T03:04:30.348Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"pkg-a2-1.0.0.tgz": {
+			"shasum": "0e3f7478b65a5708986827853830b6bb99ac9fc8",
+			"version": "1.0.0"
+		}
+	},
+	"_rev": "3-3d4539e68e200f71",
+	"_id": "pkg-a2",
+	"readme": "ERROR: No README data found!"
+}

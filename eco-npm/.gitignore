@@ -1,0 +1,5 @@
+registry/node_modules/
+registry/htpasswd
+# maybe we should keep the node_modules tp make the point.
+packages/*/node_modules/
+packages/*/package-lock.json

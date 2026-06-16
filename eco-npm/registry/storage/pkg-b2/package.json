@@ -1,0 +1,53 @@
+{
+	"name": "pkg-b2",
+	"versions": {
+		"1.0.0": {
+			"name": "pkg-b2",
+			"version": "1.0.0",
+			"description": "",
+			"main": "index.js",
+			"dependencies": {
+				"pkg-c": "^0.2.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [],
+			"author": "",
+			"license": "ISC",
+			"peerDependencies": {
+				"pkg-c": "^0.2.0"
+			},
+			"_id": "pkg-b2@1.0.0",
+			"_nodeVersion": "22.22.3",
+			"_npmVersion": "10.9.8",
+			"dist": {
+				"integrity": "sha512-mnzoAXvVFzOzpzHFmc5a4h7X1frN8hQuMjzAb1tFfDu2hQ22ObwL0hfUZ8gaPMt68+pqOCiIOIPKFKfoJ/uSmw==",
+				"shasum": "2bb22b9c67c1507cb65592c4592dafe3e823a21e",
+				"tarball": "http://localhost:4873/pkg-b2/-/pkg-b2-1.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2026-06-16T03:04:30.539Z",
+		"created": "2026-06-16T03:04:30.539Z",
+		"1.0.0": "2026-06-16T03:04:30.539Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"pkg-b2-1.0.0.tgz": {
+			"shasum": "2bb22b9c67c1507cb65592c4592dafe3e823a21e",
+			"version": "1.0.0"
+		}
+	},
+	"_rev": "3-29652c17ccc68128",
+	"_id": "pkg-b2",
+	"readme": "ERROR: No README data found!"
+}

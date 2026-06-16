@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Publish packages to the local registry.
+# Afterwards, commit registry/storage/ to capture the registry state in git.
+#
+# Requires: verdaccio running  (`overmind start`)
+
+set -euo pipefail
+
+cd "$(dirname "$0")/.."   # eco-npm/
+
+rm -r ./registry/storage
+
+REGISTRY=http://localhost:4873
+
+if ! curl -sf "$REGISTRY" > /dev/null 2>&1; then
+  echo "error: registry not reachable at $REGISTRY"
+  echo "  start it with:  overmind start"
+  exit 1
+fi
+
+npm publish "./packages/pkg-c-v0.1.0" --registry "$REGISTRY"
+npm publish "./packages/pkg-c-v0.2.0" --registry "$REGISTRY"
+npm publish "./packages/pkg-a1" --registry "$REGISTRY"
+npm publish "./packages/pkg-b1" --registry "$REGISTRY"
+npm publish "./packages/pkg-a2" --registry "$REGISTRY"
+npm publish "./packages/pkg-b2" --registry "$REGISTRY"

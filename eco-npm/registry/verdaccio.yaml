@@ -1,0 +1,31 @@
+storage: ./storage
+auth:
+  htpasswd:
+    file: ./htpasswd
+    max_users: -1  # disable registration
+
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/
+
+packages:
+  # local-only packages — never fetched from upstream
+  # pkg-* covers pkg-a, pkg-b, pkg-c, etc. which collide with real npm packages
+  "pkg-*":
+    access: $all
+    publish: $all
+
+  # everything else proxies to npmjs
+  "**":
+    access: $all
+    publish: $all
+    proxy: npmjs
+
+server:
+  keepAliveTimeout: 60
+
+middlewares:
+  audit:
+    enabled: true
+
+log: { type: stdout, format: pretty, level: http }

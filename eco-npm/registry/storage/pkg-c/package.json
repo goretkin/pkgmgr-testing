@@ -1,0 +1,62 @@
+{
+	"name": "pkg-c",
+	"versions": {
+		"0.1.0": {
+			"name": "pkg-c",
+			"version": "0.1.0",
+			"description": "Test package C",
+			"main": "index.js",
+			"license": "MIT",
+			"_id": "pkg-c@0.1.0",
+			"_nodeVersion": "22.22.3",
+			"_npmVersion": "10.9.8",
+			"dist": {
+				"integrity": "sha512-JYlefuumvbdH1txYycJxnSSF+kP+BWnycH+KhBwslKgVIaNFpys3ESCRNyRv57KbiYMvWkuOGI/UbdV7xpGiLw==",
+				"shasum": "b6cd05f36752c985cd4d68ea998909fe62df87b8",
+				"tarball": "http://localhost:4873/pkg-c/-/pkg-c-0.1.0.tgz"
+			},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "pkg-c",
+			"version": "0.2.0",
+			"description": "Test package C",
+			"main": "index.js",
+			"license": "MIT",
+			"_id": "pkg-c@0.2.0",
+			"_nodeVersion": "22.22.3",
+			"_npmVersion": "10.9.8",
+			"dist": {
+				"integrity": "sha512-pnXI0MT1CINYvqgpOD8LmoKKFkTSebULZV9Pf6afHXBTnTZUZGrjpA/dv9KxI2fW+IOHt81a4X8gSq17DmlzdA==",
+				"shasum": "a145e465f87141c91effa29e8b08ba94ab0a4db1",
+				"tarball": "http://localhost:4873/pkg-c/-/pkg-c-0.2.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2026-06-16T03:04:29.749Z",
+		"created": "2026-06-16T03:04:29.559Z",
+		"0.1.0": "2026-06-16T03:04:29.559Z",
+		"0.2.0": "2026-06-16T03:04:29.749Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.2.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"pkg-c-0.1.0.tgz": {
+			"shasum": "b6cd05f36752c985cd4d68ea998909fe62df87b8",
+			"version": "0.1.0"
+		},
+		"pkg-c-0.2.0.tgz": {
+			"shasum": "a145e465f87141c91effa29e8b08ba94ab0a4db1",
+			"version": "0.2.0"
+		}
+	},
+	"_rev": "6-cb50c1a7fa64136b",
+	"_id": "pkg-c",
+	"readme": "ERROR: No README data found!"
+}

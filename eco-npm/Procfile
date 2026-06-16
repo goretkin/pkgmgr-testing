@@ -1,0 +1,1 @@
+registry: verdaccio --config registry/verdaccio.yaml

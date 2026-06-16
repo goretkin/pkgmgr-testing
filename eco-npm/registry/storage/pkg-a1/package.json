@@ -1,0 +1,41 @@
+{
+	"name": "pkg-a1",
+	"versions": {
+		"1.0.0": {
+			"name": "pkg-a1",
+			"version": "1.0.0",
+			"dependencies": {
+				"pkg-c": "0.1.0"
+			},
+			"_id": "pkg-a1@1.0.0",
+			"_nodeVersion": "22.22.3",
+			"_npmVersion": "10.9.8",
+			"dist": {
+				"integrity": "sha512-uGlrsWaI9UUsu9tePE6A2XbMTV/5gvaOdhxBXyBjo1cx1f5/zDkSehG6r3+icBUAh7iofDo6ssKcWeJce5kxNg==",
+				"shasum": "5698de160fe989486c8a1cca21f8bf832be8f626",
+				"tarball": "http://localhost:4873/pkg-a1/-/pkg-a1-1.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2026-06-16T03:04:29.946Z",
+		"created": "2026-06-16T03:04:29.946Z",
+		"1.0.0": "2026-06-16T03:04:29.946Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"pkg-a1-1.0.0.tgz": {
+			"shasum": "5698de160fe989486c8a1cca21f8bf832be8f626",
+			"version": "1.0.0"
+		}
+	},
+	"_rev": "3-444898a3b3571065",
+	"_id": "pkg-a1",
+	"readme": "ERROR: No README data found!"
+}

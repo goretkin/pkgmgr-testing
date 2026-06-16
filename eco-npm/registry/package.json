@@ -1,0 +1,7 @@
+{
+  "name": "eco-npm",
+  "private": true,
+  "devDependencies": {
+    "verdaccio": "5.32.1"
+  }
+}
