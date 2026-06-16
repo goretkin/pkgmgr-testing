@@ -1,6 +1,13 @@
 {
-  "dependencies": {
-    "pkg-a2": "^1.0.0",
-    "pkg-b2": "^1.0.0"
-  }
+  "name": "pkg-root2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
