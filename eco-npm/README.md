@@ -125,3 +125,12 @@ npm install pkg-a2
 npm install pkg-b2
 # expected a conflict here...
 ```
+
+what about
+
+```sh
+cd pkg-root2
+npm install --strict-peer-deps pkg-a2
+npm install --strict-peer-deps pkg-b2
+# expected a conflict here...
+```
